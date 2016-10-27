@@ -62,24 +62,24 @@ var down_key = keyboard_check(vk_down);
 //Right
 if (right_key) {
     phy_position_x += spd;
-
+    sprite_index = spr_player_right;
     }
 
 //Left
 if(left_key) {
     phy_position_x -= spd;
-    
+    sprite_index = spr_player_left    
     }
 
 //Up
 if (up_key) {
     phy_position_y -= spd;
-    
+    sprite_index = spr_player_up
     }
 //Down
 if (down_key) {
     phy_position_y += spd;
-    
+    sprite_index = spr_player_down
     }
 </string>
           </argument>
