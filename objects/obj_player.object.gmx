@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///Set Fixed Rotation
 phy_fixed_rotation = true;
-spd = 8;
+spd = 2;
 image_speed = 0;
 
 </string>
