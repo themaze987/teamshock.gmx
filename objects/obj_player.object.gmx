@@ -50,9 +50,27 @@ phy_fixed_rotation = true;
           <argument>
             <kind>1</kind>
             <string>///Move the player in the step event
+//Right
 if (keyboard_check(vk_right)) {
-    phy_position += 4;
+    phy_position_x += 4;
 
+    }
+
+//Left
+if(keyboard_check(vk_left)) {
+    phy_position_x -= 4;
+    
+    }
+
+//Up
+if(keyboard_check(vk_up)) {
+    phy_position_y -= 4;
+    
+    }
+//Down
+if(keyboard_check(vk_down)) {
+    phy_position_y += 4;
+    
     }
 </string>
           </argument>
