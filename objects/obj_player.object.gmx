@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="5" enumb="39">
+    <event eventtype="5" enumb="68">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -45,8 +45,8 @@ phy_position_x += 4;
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>0,-16</point>
-    <point>32,-16</point>
+    <point>0,0</point>
+    <point>32,0</point>
     <point>32,32</point>
     <point>0,32</point>
   </PhysicsShapePoints>
