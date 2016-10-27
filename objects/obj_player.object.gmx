@@ -85,6 +85,14 @@ if (down_key) {
     sprite_index = spr_player_down
     image_speed = .2;
     }
+    
+    
+    
+    
+//Stop Animating
+if (!down_key and !right_key and !up_key and !left_key) {
+    image_speed = 0;
+    }
 </string>
           </argument>
         </arguments>
