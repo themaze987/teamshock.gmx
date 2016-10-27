@@ -55,7 +55,7 @@ state = scr_move_state;
             <kind>1</kind>
             <string>///Move the player in the step event
 scr_move_state();
-
+script_execute(state);
 </string>
           </argument>
         </arguments>
