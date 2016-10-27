@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="5" enumb="68">
+    <event eventtype="5" enumb="39">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///Move Right
-phy_position_x = +4;
+phy_position_x += 4;
 </string>
           </argument>
         </arguments>
