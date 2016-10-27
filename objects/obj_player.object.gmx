@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>///Set Fixed Rotation
 phy_fixed_rotation = true;
+spd = 8;
+
 </string>
           </argument>
         </arguments>
@@ -50,26 +52,32 @@ phy_fixed_rotation = true;
           <argument>
             <kind>1</kind>
             <string>///Move the player in the step event
+
+var right_key = keyboard_check(vk_right);
+var left_key = keyboard_check(vk_left);
+var up_key = keyboard_check(vk_up);
+var down_key = keyboard_check(vk_down);
+
 //Right
-if (keyboard_check(vk_right)) {
-    phy_position_x += 4;
+if (right_key) {
+    phy_position_x += spd;
 
     }
 
 //Left
-if(keyboard_check(vk_left)) {
-    phy_position_x -= 4;
+if(left_key) {
+    phy_position_x -= spd;
     
     }
 
 //Up
-if(keyboard_check(vk_up)) {
-    phy_position_y -= 4;
+if (up_key) {
+    phy_position_y -= spd;
     
     }
 //Down
-if(keyboard_check(vk_down)) {
-    phy_position_y += 4;
+if (down_key) {
+    phy_position_y += spd;
     
     }
 </string>
