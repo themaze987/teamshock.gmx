@@ -63,23 +63,27 @@ var down_key = keyboard_check(vk_down);
 if (right_key) {
     phy_position_x += spd;
     sprite_index = spr_player_right;
+    image_speed = .2;
     }
 
 //Left
 if(left_key) {
     phy_position_x -= spd;
-    sprite_index = spr_player_left    
+    sprite_index = spr_player_left 
+    image_speed = .2;   
     }
 
 //Up
 if (up_key) {
     phy_position_y -= spd;
     sprite_index = spr_player_up
+    image_speed = .2;
     }
 //Down
 if (down_key) {
     phy_position_y += spd;
     sprite_index = spr_player_down
+    image_speed = .2;
     }
 </string>
           </argument>
