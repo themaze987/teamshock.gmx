@@ -92,6 +92,7 @@ if (down_key) {
 //Stop Animating
 if (!down_key and !right_key and !up_key and !left_key) {
     image_speed = 0;
+    image_index = 0;
     }
 </string>
           </argument>
