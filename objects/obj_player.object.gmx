@@ -141,6 +141,7 @@ if (!down_key and !right_key and !up_key and !left_key) {
             <kind>1</kind>
             <string>///Draw The Shadow
 draw_sprite(spr_player_shadow, image_index, x, y);
+draw_self();
 </string>
           </argument>
         </arguments>
